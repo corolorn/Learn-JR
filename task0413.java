@@ -4,7 +4,7 @@
 
 import java.io.*;
 
-public class Solution {
+public class task0413 {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader  br = new BufferedReader(new InputStreamReader(System.in));
