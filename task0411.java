@@ -4,7 +4,7 @@ package com.javarush.task.task04.task0411;
 Времена года на Терре
 */
 
-public class Solution {
+public class task0411 {
     public static void main(String[] args) {
         checkSeason(12);
         checkSeason(4);
