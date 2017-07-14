@@ -1,4 +1,5 @@
-package com.javarush.task.task04.task0416;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 /* 
 Переходим дорогу вслепую
@@ -6,7 +7,7 @@ package com.javarush.task.task04.task0416;
 
 import java.io.*;
 
-public class task0416 {
+public class Task0416 {
      public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
