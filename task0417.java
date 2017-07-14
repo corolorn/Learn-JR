@@ -1,12 +1,10 @@
-package com.javarush.task.task04.task0417;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-/* 
-Существует ли пара?
-*/
-
-import java.io.*;
-
-public class task0417 {
+/**
+ * Created by User on 014 14.07.17.
+ */
+public class Task0417 {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,15 +13,15 @@ public class task0417 {
         int c  = Integer.parseInt(br.readLine());
         if(a==b && b==c){
             System.out.println(a+" "+b + " " +c);}
-            else if (a==b){
-                System.out.println(a+" "+b );
-            }else if (b==c){
-                System.out.println(b+" "+c );
-            }else if (a==c){
-                System.out.println(a+" "+c );}
-            else ;
-            
-        
+        else if (a==b){
+            System.out.println(a+" "+b );
+        }else if (b==c){
+            System.out.println(b+" "+c );
+        }else if (a==c){
+            System.out.println(a+" "+c );}
+        else ;
+
+
 
     }
 }
